@@ -1,4 +1,4 @@
-function getToken() {
+{
   return new Promise((resolve, reject) => {
     setTimeout(function () {
       if (Math.random() > 0.2) {
